@@ -11,7 +11,7 @@ public class ReachabilityConnectivityProvider: NSObject, ConnectivityProvider {
       return .wifi
     case .cellular:
       return .cellular
-    default:
+    case .none:
       return .none
     }
   }
